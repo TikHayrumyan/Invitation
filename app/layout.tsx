@@ -1,8 +1,30 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Great_Vibes, Cormorant, Ephesis } from "next/font/google";
 import "./globals.css";
+import path from "path";
 
-const inter = Inter({ subsets: ["latin"] });
+const GreatVibes = Great_Vibes({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-great-vibes",
+});
+const InterFont = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-inter",
+});
+
+const font_Cormorant = Cormorant({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-cormorant",
+});
+
+const Ephesis_font = Ephesis({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-epi",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +38,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${GreatVibes.variable} ${InterFont.variable} ${font_Cormorant.variable} ${Ephesis_font.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
