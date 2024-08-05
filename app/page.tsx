@@ -163,7 +163,7 @@ export default function Home() {
             </h3>
 
             <p className="text-black text-2xl text-center  font-light font_Cormorant">
-              Florance Restaurant
+            Florence Restaurant
             </p>
           </motion.div>
         </div>
