@@ -28,9 +28,9 @@ interface StarBackgroundProps {
 export const StarsBackground: React.FC<StarBackgroundProps> = ({
   starDensity = 0.00075,
   allStarsTwinkle = true,
-  twinkleProbability = 0.5,
-  minTwinkleSpeed = 0.3,
-  maxTwinkleSpeed = 0.5,
+  twinkleProbability = 0.9,
+  minTwinkleSpeed = 0.4,
+  maxTwinkleSpeed = 0.9,
   className,
 }) => {
   const [stars, setStars] = useState<StarProps[]>([]);
@@ -45,7 +45,7 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
         const shouldTwinkle =
           allStarsTwinkle || Math.random() < twinkleProbability;
         return {
-          x: Math.random() * width ,
+          x: Math.random() * width+1  ,
           y: Math.random() * height,
           radius: Math.random() * 0.05 + 0.5,
           opacity: Math.random() * 0.5 + 0.5,
