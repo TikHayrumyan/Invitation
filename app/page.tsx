@@ -35,7 +35,7 @@ export default function Home() {
           <motion.h1
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="text-white text-7xl items-center justify-center w-full flex font_Great_Vibes absolute bottom-10"
           >
             Save the Date
@@ -50,7 +50,7 @@ export default function Home() {
         <motion.h3
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, y: -20 }}
-          transition={{ duration: 1.5, ease: "linear" }}
+          transition={{ duration: 2, ease: "linear" }}
           className="text-black text-lg mb-5 mt-10 text-center uppercase font-light font_Cormorant"
         >
           you are invited to the wedding of
@@ -58,7 +58,7 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, y: -20 }}
-          transition={{ duration: 1.5, ease: "linear" }}
+          transition={{ duration: 2, ease: "linear" }}
           className="flex items-center justify-center w-full h-auto"
         >
           <Image
@@ -72,7 +72,7 @@ export default function Home() {
         <motion.span
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, y: -20 }}
-          transition={{ duration: 1.5, ease: "linear" }}
+          transition={{ duration: 2, ease: "linear" }}
           className="flex items-center justify-center w-full h-auto text-black text-5xl font_Cormorant mt-7 mb-5"
         >
           06 | 10 | 2024
@@ -81,7 +81,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="flex flex-col items-center justify-center w-full h-auto mt-10"
           >
             <Image
@@ -104,7 +104,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="flex flex-col items-center justify-center w-full h-auto mt-10"
           >
             <Image
@@ -127,7 +127,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="flex flex-col items-center justify-center w-full h-auto mt-10"
           >
             <Image
@@ -148,7 +148,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="flex flex-col items-center justify-center w-full h-auto mt-10"
           >
             <Image
@@ -180,7 +180,7 @@ export default function Home() {
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="text-black text-xl text-center font-light font_Cormorant"
           >
             Please confirm your attendance by 20.09.2024
@@ -190,7 +190,7 @@ export default function Home() {
               id="postCodeForm"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, y: -20 }}
-              transition={{ duration: 1.5, ease: "linear" }}
+              transition={{ duration: 2, ease: "linear" }}
               type="text"
               name="Name"
               placeholder="Name & Surname *"
@@ -200,7 +200,7 @@ export default function Home() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, y: -20 }}
-              transition={{ duration: 1.5, ease: "linear" }}
+              transition={{ duration: 2, ease: "linear" }}
               className="mt-5"
             >
               <SubmitButton text="Send" size={"lg"} variant={"default"} />
@@ -209,7 +209,7 @@ export default function Home() {
           <motion.span
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="w-[70vw] font_Cormorant text-black text-xl text-center mt-5"
           >
             We are looking forward to share this important and special day
@@ -217,7 +217,7 @@ export default function Home() {
           <motion.span
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, y: -20 }}
-            transition={{ duration: 1.5, ease: "linear" }}
+            transition={{ duration: 2, ease: "linear" }}
             className="font_Ephisis text-black text-7xl text-center flex p-10"
           >
             <SparklesText text="With You!" />
